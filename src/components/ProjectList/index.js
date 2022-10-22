@@ -4,11 +4,11 @@ import Modal from '../Modal';
 
 const ProjectList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentPhoto, setCurrentPhoto] = useState(); 
+  const [currentProject, setCurrentProject] = useState(); 
 
 //   where does this go from 20.5.4 just over halfway down page doesnt say where it goes
 //   {isModalOpen && <Modal currentPhoto={currentPhoto} />}
-  const [photos] = useState([
+  const [projects] = useState([
     {
       name: 'Grocery aisle',
       category: 'commercial',
@@ -125,20 +125,20 @@ const ProjectList = ({ category }) => {
     }
   ]);
 
-  const currentPhotos = photos.filter(photo => photo.category === category);
+  const currentProjects = projects.filter(project => project.category === category);
 
   const toggleModal = (image, i) => {
-    setCurrentPhoto({...image, index: i});
+    setCurrentProject({...image, index: i});
     setIsModalOpen(!isModalOpen);
   }
 
   return (
     <div>
       {isModalOpen && (
-        <Modal onClose={toggleModal} currentPhoto={currentPhoto} />
+        <Modal onClose={toggleModal} currentProject={currentProject} />
       )}
       <div className="flex-row">
-        {currentPhotos.map((image, i) => (
+        {currentProjects.map((image, i) => (
           <img
             src={require(`../../assets/small/${category}/${i}.jpg`)}
             alt={image.name}
