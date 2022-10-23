@@ -1,3 +1,49 @@
+# React-Portfolio-ES
+
+## Purpose
+
+## Description
+
+## Built with
+* Apollo
+* MERN stack
+* MongoDB
+* Node
+
+
+## Website
+
+
+## contribution
+Made with ❤️ by Eric Schweitzer
+
+&copy; Schweitzer Enterprises
+
+
+================================================================================
+For each project you feature in your portfolio, you should include the following:
+
+An image of the deployed application (either a GIF or a screenshot)
+The title of the project
+A link to the deployed application
+A link to the corresponding GitHub repository
+
+links to projects
+
+https://ers206.github.io/original-portfolio/
+https://ers206.github.io/password-generator/
+ https://ers206.github.io/daily-planner-eric/
+ https://oceanlatte.github.io/booze-n-binge/
+ <!-- https://github.com/ers206/e-commerce-backend.git  -->
+https://immense-ravine-74376.herokuapp.com/
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

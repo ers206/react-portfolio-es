@@ -16,6 +16,7 @@ function Nav(props) {
     return item;
   };
 
+//   About Me, Portfolio, Contact, and Resume should be on the nav bar
   return (
     <header className="flex-row px-1">
       <h2>
