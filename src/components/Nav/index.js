@@ -2,23 +2,10 @@ import React from "react";
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected
-  } = props;
-
-
-  const handleClick = (item) => {
-    setContactSelected(!contactSelected)
-    return item;
-  };
 
 //   About Me, Portfolio, Contact, and Resume should be on the nav bar
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 ">
       <h2>
         <a data-testid="link" href="/">
           <span role="img" aria-label="camera"> 💻</span> Eric Schweitzer Portfolio
@@ -27,33 +14,22 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about">
+            <a data-testid="about" href="#about" onClick={() => props.setCurrentPage("about")}>
               About me
             </a>
           </li>
-          <li className={"mx-2"}>
-            <span onClick={() => {
-                handleClick()
-            }}>
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => props.setCurrentPage("contact")}>
               Contact
-            </span>
+            </a>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                }}
-              >
-                {/* {capitalizeFirstLetter(category.name)} */}
-              </span>
-            </li>
-          ))}
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => props.setCurrentPage("projects")}>
+              Projects
+            </a>
+          </li>
+          
+            
         </ul>
       </nav>
     </header>
