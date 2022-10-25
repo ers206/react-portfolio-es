@@ -1,14 +1,18 @@
 # React-Portfolio-ES
 
 ## Purpose
+To create a single page portfolio application using react. 
 
 ## Description
+I used react to make a single page application to showcase my work as a developer.
 
 ## Built with
-* Apollo
-* MERN stack
-* MongoDB
-* Node
+* react
+* react-dom
+* react-scripts
+* @testing-library
+* web-vitals
+
 
 
 ## Website

@@ -1,6 +1,7 @@
 //from mod 
 import React from 'react'
-import coverImage from "../../assets/cover/cover-image.jpg"; 
+//not sure if this works
+import coverImage from "../../assets/cover/cover-image.jpg";
 
 function About() {
 
@@ -10,7 +11,7 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
-          about me section
+         Im Eric. I currently live in Jefferson Wisconsin. I am a father of two daughters. We enjoy going to museums and parks. In the summer we frequent beaches and the local pool. When im not with my daughters I enjoy riding motorcycles, concerts, and sporting events.
       </p>
       </div>
     </section>
