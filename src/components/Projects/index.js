@@ -5,6 +5,10 @@ import ProjectList from '../ProjectList';
 import { SingularProject } from '../SingularProject';
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 import book from "../../assets/images/book.png"
+import booze from "../../assets/images/booze.png"
+import portfolio from "../../assets/images/portfolio.png"
+import regex from "../../assets/images/regex.png"
+import scheduler from "../../assets/images/.png"
 
 function Projects(props) {
  const [arrOfProjects] = useState([
@@ -14,19 +18,19 @@ function Projects(props) {
     },
     {
         projectName: "Booze and Binge",
-        projectScreenie: book
+        projectScreenie: booze
     },
     {
-        projectName: "Ligma",
-        projectScreenie: book
+        projectName: "Portfolio",
+        projectScreenie: portfolio
     },
     {
-        projectName: "Ligma",
-        projectScreenie: book
+        projectName: "Regex",
+        projectScreenie: regex
     },
     {
-        projectName: "Ligma",
-        projectScreenie: book
+        projectName: "Work day Scheduler",
+        projectScreenie: scheduler
     },
 
  ])
