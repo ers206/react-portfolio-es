@@ -28,6 +28,11 @@ function Nav(props) {
               Projects
             </a>
           </li>
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => props.setCurrentPage("projects")}>
+              Resume
+            </a>
+          </li>
           
             
         </ul>

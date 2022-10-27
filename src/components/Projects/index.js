@@ -15,6 +15,7 @@ function Projects(props) {
     {
         projectName: "IReadIt",
         projectScreenie: book
+        // projectLink:
         // https://immense-ravine-74376.herokuapp.com/
     },
     {

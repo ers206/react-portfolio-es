@@ -24,7 +24,7 @@ Made with ❤️ by Eric Schweitzer
 &copy; Schweitzer Enterprises
 
 
-================================================================================
+<!-- ================================================================================
 For each project you feature in your portfolio, you should include the following:
 
 An image of the deployed application (either a GIF or a screenshot)
@@ -37,8 +37,9 @@ links to projects
 https://ers206.github.io/original-portfolio/
 https://ers206.github.io/password-generator/
  https://ers206.github.io/daily-planner-eric/
- https://oceanlatte.github.io/booze-n-binge/
-https://immense-ravine-74376.herokuapp.com/
+ https://oceanlatte.github.io/booze-n-binge/ -->
+ 
+<!-- https://immense-ravine-74376.herokuapp.com/ -->
 
  <!-- https://github.com/ers206/e-commerce-backend.git  -->
 
