@@ -9,17 +9,26 @@ import book from "../../assets/images/book.png"
 function Projects(props) {
  const [arrOfProjects] = useState([
     {
-        projectName: "Joe",
+        projectName: "IReadIt",
         projectScreenie: book
     },
     {
-        projectName: "Deez",
+        projectName: "Booze and Binge",
         projectScreenie: book
     },
     {
         projectName: "Ligma",
         projectScreenie: book
     },
+    {
+        projectName: "Ligma",
+        projectScreenie: book
+    },
+    {
+        projectName: "Ligma",
+        projectScreenie: book
+    },
+
  ])
 
   return (

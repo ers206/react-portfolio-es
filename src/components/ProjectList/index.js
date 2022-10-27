@@ -1,4 +1,5 @@
 // photolist is ProjectList in this project
+// file may not be needed 
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
