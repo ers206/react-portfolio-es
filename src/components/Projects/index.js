@@ -14,28 +14,32 @@ function Projects(props) {
  const [arrOfProjects] = useState([
     {
         projectName: "IReadIt",
-        projectScreenie: book
-        // projectLink:
+        projectScreenie: book,
+        projectLink: 'https://immense-ravine-74376.herokuapp.com/'
         // https://immense-ravine-74376.herokuapp.com/
     },
     {
         projectName: "Booze and Binge",
-        projectScreenie: booze
+        projectScreenie: booze,
+        projectLink: 'https://oceanlatte.github.io/booze-n-binge/'
         //  https://oceanlatte.github.io/booze-n-binge/
     },
     {
         projectName: "Portfolio",
-        projectScreenie: portfolio
+        projectScreenie: portfolio,
+        projectLink: 'https://ers206.github.io/original-portfolio/'
         // https://ers206.github.io/original-portfolio/
     },
     {
         projectName: "Regex",
-        projectScreenie: regex
+        projectScreenie: regex,
+        projectLink: 'https://gist.github.com/ers206/62f0c1163936b99164de3cf426af9124'
         //https://gist.github.com/ers206/62f0c1163936b99164de3cf426af9124
     },
     {
         projectName: "Work day Scheduler",
-        projectScreenie: scheduler
+        projectScreenie: scheduler,
+        projectLink: 'https://ers206.github.io/daily-planner-eric/'
         //  https://ers206.github.io/daily-planner-eric/
     },
 
@@ -45,7 +49,7 @@ function Projects(props) {
     <section>
       {arrOfProjects.map(project => {
         return (
-            <SingularProject projectName={project.projectName} projectScreenie={project.projectScreenie} />
+            <SingularProject projectName={project.projectName} projectScreenie={project.projectScreenie} projectLink={project.projectLink} />
         )
       })}
     </section>
