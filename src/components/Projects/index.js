@@ -42,6 +42,13 @@ function Projects(props) {
         projectLink: 'https://ers206.github.io/daily-planner-eric/'
         //  https://ers206.github.io/daily-planner-eric/
     },
+    {
+        projectName: "Password Generator",
+        projectScreenie: scheduler,
+        projectLink: 'https://ers206.github.io/password-generator/'
+       //https://ers206.github.io/password-generator/
+    },
+    
 
  ])
 
