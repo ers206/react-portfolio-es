@@ -9,6 +9,7 @@ import booze from "../../assets/images/booze.png"
 import portfolio from "../../assets/images/portfolio.png"
 import regex from "../../assets/images/regex.png"
 import scheduler from "../../assets/images/scheduler.png"
+import password from "../../assets/images/password.png"
 
 function Projects(props) {
  const [arrOfProjects] = useState([
@@ -44,7 +45,7 @@ function Projects(props) {
     },
     {
         projectName: "Password Generator",
-        projectScreenie: scheduler,
+        projectScreenie: password,
         projectLink: 'https://ers206.github.io/password-generator/'
        //https://ers206.github.io/password-generator/
     },
