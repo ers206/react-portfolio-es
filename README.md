@@ -13,10 +13,15 @@ I used react to make a single page application to showcase my work as a develope
 * @testing-library
 * web-vitals
 
+## images
+
+![](./src/assets/cover/Screenshot%202022-10-28%20184024.png)
+![](./src/assets/cover/Screenshot%202022-10-28%20184032.png)
+![](./src/assets/cover/Screenshot%202022-10-28%20184037.png)
 
 
 ## Website
-
+https://fluffy-treacle-c14809.netlify.app
 
 ## contribution
 Made with ❤️ by Eric Schweitzer
@@ -38,7 +43,7 @@ https://ers206.github.io/original-portfolio/
 https://ers206.github.io/password-generator/
  https://ers206.github.io/daily-planner-eric/
  https://oceanlatte.github.io/booze-n-binge/ -->
- 
+
 <!-- https://immense-ravine-74376.herokuapp.com/ -->
 
  <!-- https://github.com/ers206/e-commerce-backend.git  -->
