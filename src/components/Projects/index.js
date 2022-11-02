@@ -9,7 +9,8 @@ import booze from "../../assets/images/booze.png"
 import portfolio from "../../assets/images/portfolio.png"
 import regex from "../../assets/images/regex.png"
 import scheduler from "../../assets/images/scheduler.png"
-import password from "../../assets/images/password.png"
+// import password from "../../assets/images/password.png"
+import cookies from "../../assets/images/cookies.png"
 
 function Projects(props) {
  const [arrOfProjects] = useState([
@@ -44,9 +45,9 @@ function Projects(props) {
         //  https://ers206.github.io/daily-planner-eric/
     },
     {
-        projectName: "Password Generator",
-        projectScreenie: password,
-        projectLink: 'https://ers206.github.io/password-generator/'
+        projectName: "Quick Cookies",
+        projectScreenie: cookies,
+        projectLink: 'https://vast-earth-44489.herokuapp.com/'
        //https://ers206.github.io/password-generator/
     },
     
