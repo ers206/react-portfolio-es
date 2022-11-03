@@ -47,7 +47,7 @@ function Projects(props) {
     {
         projectName: "Quick Cookies",
         projectScreenie: cookies,
-        projectLink: 'https://vast-earth-44489.herokuapp.com/'
+        projectLink: 'https://boywondr84.github.io/mern-subscription/'
        //https://ers206.github.io/password-generator/
     },
     
