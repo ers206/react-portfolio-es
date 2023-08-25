@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(91, 88, 105);
+  background-color: rgb(244, 243, 250);
 }
 
 body {
@@ -17,17 +17,17 @@ code {
 }
 
 header {
- background: rgb(5, 40, 54);
+ background: rgb(31, 32, 32);
 
 }
 
 .card {
-  color: rgb(5, 40, 54);
+  color: rgb(46, 148, 63);
   
 
 }
 /* #contact-form {
-
+display:cnter ;
 } */
 /* #flex-row {
 

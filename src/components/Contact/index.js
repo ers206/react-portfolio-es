@@ -36,7 +36,13 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      {/* below I used style {{}}to change dislplay  mess with the diplay its not centering right */}
+      <form id="contact-form" onSubmit={handleSubmit}      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center", 
+        // height: "100%"
+      }}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
