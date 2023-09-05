@@ -37,11 +37,11 @@ function Nav(props) {
               Photos
             </a>
           </li>
-          {/* <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => props.setCurrentPage("projects")}>
-              Resume
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => props.setCurrentPage("modal")}>
+              modal
             </a>
-          </li> */}
+          </li>
           
             
         </ul>
